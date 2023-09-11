@@ -24,8 +24,7 @@
 
 <style lang="scss" scoped>
 .region {
-    width: 100%;
-    height: 100%;
+
     color: #7f7f7f;
     margin-top: 10px;
 

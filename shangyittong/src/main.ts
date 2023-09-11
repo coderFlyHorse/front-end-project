@@ -10,11 +10,17 @@ import HostitalBottom from '@/components/hospital_bottom/index.vue'
 // 全部引入
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+// @ts-ignore
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
+
 
 const app = createApp(App)
 app.component('HostitalTop',HostitalTop)
 app.component('HostitalBottom',HostitalBottom)
 // UI库
-app.use(ElementPlus)
+app.use(ElementPlus, {
+    locale: zhCn,
+  })
+
 app.use(router)
 app.mount('#app')

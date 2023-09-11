@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
+    z-index: 100;
 
     .content {
         width: 1200px;

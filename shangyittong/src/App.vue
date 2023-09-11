@@ -18,6 +18,12 @@
 import { RouterView } from 'vue-router';
 
 
+
+
+
+// import HostitalTop from './components/HostitalTop.vue'
+// import HostitalBottom from './components/HostitalBottom.vuei
+
 </script>
 
 <style lang="scss" scoped>
